@@ -3,8 +3,6 @@ import BpmnViewer from 'npm:bpmn-js';
 export default Controller.extend({
 
 	actions: {
-
-
 		render: function() {
 			var viewer = new BpmnViewer({ container: '#canvas' });
 			var bpmn = this.model.bpmn;
@@ -17,7 +15,6 @@ export default Controller.extend({
 					console.log('something went wrong:', err);
 				}
 			});
-
 		}
 	}
 });

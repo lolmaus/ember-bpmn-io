@@ -1,7 +1,6 @@
-# ember-bpmn-io-test
+# ember-bpmn-io
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This Ember addon integrates bpmn-io [http://bpmn-io] to make rendering BPMN diagrams in your application a breeze. 
 
 ## Prerequisites
 
@@ -15,7 +14,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd ember-bpmn-io-test`
+* `cd ember-bpmn-io`
 * `npm install`
 
 ## Running / Development
