@@ -7,8 +7,8 @@ export default Controller.extend({
 
 		render: function() {
 			var viewer = new BpmnViewer({ container: '#canvas' });
-
-			viewer.importXML(pizzaDiagram, function(err) {
+			var bpmn = this.model.bpmn;
+			viewer.importXML(bpmn, function(err) {
 
 				if (!err) {
 					console.log('success!');
