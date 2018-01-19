@@ -3,7 +3,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'ember-bpmn-io-test',
+    modulePrefix: 'ember-bpmn-io',
     environment,
     rootURL: '/',
     locationType: 'auto',
