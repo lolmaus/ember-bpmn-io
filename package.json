@@ -1,6 +1,6 @@
 {
 	"name": "ember-bpmn-io",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "Ember Addon to Render and Edit BPMN Diagrams",
 	"keywords": [
 		"ember-addon"
@@ -22,7 +22,7 @@
 	},
 	"dependencies": {
 		"ember-cli-babel": "^6.6.0",
-		"ember-cli-htmlbars": "^2.0.1",		
+		"ember-cli-htmlbars": "^2.0.1",
 		"bpmn-js": "^0.26.3",
 		"ember-cli-sass": "^7.1.4",
 		"ember-browserify": "^1.2.1"
