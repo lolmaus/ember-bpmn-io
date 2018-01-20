@@ -45,7 +45,7 @@ You will need the following things properly installed on your computer.
 `import {hash} from 'rsvp';`  
 `export default Route.extend({`  
 `model: function() {`  
-`        return hash({`  
+` return hash({`  
 `            bpmn: $.get('assets/bpmn/simple.bpmn')`  
 `            .then(function(response){`  
 `                return response;`  
