@@ -1,6 +1,6 @@
 {
 	"name": "ember-bpmn-io",
-	"version": "0.2.4",
+	"version": "0.2.5",
 	"description": "Ember Addon to Render and Edit BPMN Diagrams",
 	"keywords": [
 		"ember-addon"
