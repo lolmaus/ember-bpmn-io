@@ -30,10 +30,6 @@ You will need the following things properly installed on your computer.
 `ember new ember-bpmn-io-test`
 `cd ember-bpmn-io-test`
 
-* Copy the sample BPMN to your public/assets/bpmn folder
-
-`cp -r node_modules/ember-bpmn-io/tests/dummy/public/assets public`
-
 * Add a route
 
 `ember g route bpmn`
@@ -46,7 +42,7 @@ You will need the following things properly installed on your computer.
 `export default Route.extend({`  
 &nbsp;&nbsp;`model: function() {`  
 &nbsp;&nbsp;&nbsp;&nbsp;`return hash({`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`bpmn: $.get('assets/bpmn/simple.bpmn')`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`bpmn: $.get('/ember-bpmn-io/assets/bpmn/simple.bpmn') // or a local file of your choice`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`.then(function(response){`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return response;`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`})`  
