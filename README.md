@@ -13,9 +13,11 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-bpmn-io`
-* `npm install`
+* `ember install ember-bpmn-io`
+* Required for npm: style imports
+* Until Ember gets it together :)
+* `npm install --save-dev ember-cli-browserify`
+* `npm install --save-dev bpmn-io`
 
 ## Running / Development
 
