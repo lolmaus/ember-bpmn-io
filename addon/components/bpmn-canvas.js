@@ -1,10 +1,13 @@
-import Controller from '@ember/controller';
+import Component from '@ember/component';
+import layout from '../templates/components/bpmn-canvas';
 import BpmnViewer from 'npm:bpmn-js';
 import BpmnModeler from 'npm:bpmn-js/lib/Modeler';
 import Ember from 'ember';
-export default Controller.extend({
-	viwer: null,
-	modeler: null, 
+export default Component.extend({
+	layout, 
+	viewer: null,
+	modeler: null,
+	bpmn: null, 
 	actions: {
 		render: function() {
 			var viewer = this.get('viewer'); 
@@ -12,7 +15,7 @@ export default Controller.extend({
 				viewer = new BpmnViewer({ container: '#canvas' });
 				this.set('viewer', viewer);
 			}
-			var bpmn = this.model.bpmn.responseText;
+			var bpmn = this.get('bpmn');
 			viewer.importXML(bpmn, function(err) {
 
 				if (!err) {
@@ -30,7 +33,7 @@ export default Controller.extend({
 				modeler = new BpmnModeler({ container: '#canvas' });
 				this.set('modeler', modeler);
 			}
-			var bpmn = this.model.bpmn.responseText;
+			var bpmn = this.get('bpmn');
 			modeler.importXML(bpmn, function(err) {
 
 				if (!err) {
