@@ -44,11 +44,11 @@ You will need the following things properly installed on your computer.
 `import $ from 'jquery';`  
 `import {hash} from 'rsvp';`  
 `export default Route.extend({`  
-`model: function() {`  
-&nbsp;&nbsp;`return hash({`  
-&nbsp;&nbsp;&nbsp;&nbsp;`bpmn: $.get('assets/bpmn/simple.bpmn')`  
+&nbsp;&nbsp;`model: function() {`  
+&nbsp;&nbsp;&nbsp;&nbsp;`return hash({`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`bpmn: $.get('assets/bpmn/simple.bpmn')`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`.then(function(response){`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return response;`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`return response;`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`})`  
 &nbsp;&nbsp;&nbsp;&nbsp;`});`  
 &nbsp;&nbsp;`}`  
