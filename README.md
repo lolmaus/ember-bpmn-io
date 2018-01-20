@@ -16,8 +16,8 @@ You will need the following things properly installed on your computer.
 * `ember install ember-bpmn-io`
 * Required for npm: style imports
 * Until Ember gets it together :)
-* `npm install --save-dev ember-cli-browserify`
-* `npm install --save-dev bpmn-io`
+* `npm install --save-dev ember-browserify`
+* `npm install --save-dev bpmn-js`
 
 ## Running / Development
 
@@ -39,9 +39,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
