@@ -1,6 +1,6 @@
 # ember-bpmn-io
 
-This Ember addon integrates bpmn-io [http://bpmn-io] to make rendering BPMN diagrams in your application a breeze. 
+This Ember addon integrates [bpmn-io](https://bpmn.io/) to make rendering BPMN diagrams in your application a breeze. 
 
 ## Prerequisites
 
